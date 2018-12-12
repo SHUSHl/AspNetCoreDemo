@@ -33,7 +33,7 @@ namespace AspNetCoreWeb
             });
 
             //services.Configure<Content>(Configuration.GetSection("Content"));
-            services.Configure<Content>(Configuration.GetSection("ContentList"));
+            //services.Configure<Content>(Configuration.GetSection("ContentList"));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
